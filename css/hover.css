@@ -1,0 +1,15 @@
+li:hover{
+    color: blue;
+}
+
+.hvr:hover{
+    background-color: burlywood;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: green;
+    color: black;
+    font-size: 20px;
+}

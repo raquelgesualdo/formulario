@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Vínculo com CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Vínculo com hover -->
+    <link rel="stylesheet" href="./css/hover.css">
+    <!-- Vínculo com animações -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="./img/aventura.png">
+    <!-- Vínculo com JS - adicionado para treinamento -->
+    <script type="text/javascript" src="./JS/main.js"></script>
+    <title>Aventureiros</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <!-- Box form -->
+        <form id="form" class="slide-form">
+            <h1>Pedra Grande em Atibaia: Venha admirar o pôr do sol!</h1>
+            <p>Atibaia é a cidade dos morangos. É lá que tem a tão bem falada Pedra Grande, uma formação rochosa de mais
+                de
+                1.400m de altura. Fica a aproximadamente 60km de São Paulo. Subiremos na Pedra Grande através da trilha
+                Monges (3km). Consideramos nível de dificuldade: Iniciante. Grupo máximo: 10 pessoas. Nosso passeio
+                inclui:
+            </p>
+            <ol>
+                <li>Transporte</li>
+                <li>Seguro viagem</li>
+                <li>Guias especializados</li>
+                <li>Lanche trilha</li>
+                <li>Equipamentos de segurança</li>
+            </ol>
+            <p>Valor: R$ 259,00</p>
+            <p>Garanta já sua vaga nesta incrível aventura, inscreva-se preenchendo os campos abaixo:</p>
+            <div class="container">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <!-- Nome -->
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input class="hvr" type="text" id="nome" nome="nome" placeholder="insira seu nome completo">
+                    </div>
+                    <!-- E-mail -->
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input class="hvr" type="email" id="email" nome="email" placeholder="contato@email.com">
+                    </div>
+                    <!-- Telefone -->
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input class="hvr" type="telefone" id="telefone" nome="telefone" placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                </fieldset>
+            </div>
+            <!-- Data  -->
+            <div class="data">
+                <label>Escolha uma data:</label>
+                <input type="date" name="data" value="2021-08-01" min="2021-08-01" max="2021-12-31">
+            </div>
+            <!-- Forma de Pagamento -->
+            <div class="pagamento">
+                <label>Forma de Pagamento:</label>
+                <input type="radio" name="unico" value="debito"><label for="debito">Débito</label>
+                <input type="radio" name="unico" value="credito"><label for="credito">Crédito</label>
+                <input type="radio" name="unico" value="pix"><label for="pix">PIX</label>
+            </div>
+            <!-- Botões -->
+            <button onclick="msg1()" class="btn" type="submit">Enviar inscrição !!!</button>
+            <button onclick="msg2()" class="btn" type="reset">Desistir de passear :(</button>
+
+            <!-- Ícone do WhatsApp, ao clicar abrirá em nova página -->
+            <a href="https://web.whatsapp.com" target="_blank">
+                <img class="chat" src="./img/chat.png">
+            </a>
+        </form>
+    </main>
+    <footer>
+        <!-- Ícones para contato, ao clicar abrirá em nova página -->
+        <a href="https://www.linkedin.com/in/raquel-teixeira-gesualdo/" target="_blank">
+            <img class="icons" src="https://image.flaticon.com/icons/png/512/1409/1409945.png"
+                alt="linkedin logo" /></a>
+        <a href="https://github.com/raquelgesualdo" target="_blank">
+            <img class="icons" src="https://cdn2.iconfinder.com/data/icons/well-known-1/1024/GitHub-512.png"
+                alt="github logo" /></a>
+        <a href="https://www.instagram.com/raquelgesualdo/" target="_blank">
+            <img class="icons" src="https://image.flaticon.com/icons/png/512/2111/2111463.png"
+                alt="instagram logo" /></a>
+    </footer>
+</body>
+
+</html>

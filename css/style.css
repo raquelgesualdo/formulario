@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box; /* altera a propriedade padrão da box model */
+}
+
+body{
+    font-family: 'Amita', cursive; /* fonte escolhida no Google Fonts */
+    background-color: bisque; /* cor de fundo do site inteiro */
+}
+
+#form{
+    padding: 20px; /* distanciamento entre o conteúdo e a borda do site */
+    background-image: url(../img/pordosol.jpg); /* imagem de fundo dentro do formulário */
+    background-size: 100%; /* tamanho da imagem */
+    border-radius: 10px; /* bordas arredondadas do formulário */
+    max-width: 90%; /* tamanho máximo do formulário */
+    margin: 10px auto; /* margem acima e abaixo formulário, laterais automáticas */
+}
+
+#form h1{
+    color: orange /* cor do título do formulário */
+}
+
+#form p{
+    text-align: justify; /* alinhamento justificado do texto */
+    text-decoration: underline; /* sublinhado no texto */
+}
+
+.container{
+    padding-right: 60%; /* ajuste da borda */
+    color: firebrick; /* cor dos títulos */
+}
+
+.data{
+    color: white; /* class adicionada na div para alterar a cor dos títulos */
+}
+.pagamento{
+    color: white; /* class adicionada na div para alterar a cor dos títulos */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="telefone"]{
+    background: transparent; /* fundo transparente */
+    border: none; /* retirada da borda */
+    border-bottom: 2px dotted black; /* tamanho, estilo e cor da linha */
+    margin-bottom: 20px; /* distanciamento entre os inputs */
+    color:blue; /* cor da escrita (vista pelo usuário ao preencher o formulário */
+}
+
+input[type="radio"]{
+    margin: 30px 20px 30px; /* distanciamento entre cada opção de pagamento e entre a data e botões */
+} 
+
+.hvr{
+    transition: 1s ease-in; /*1 segundo para iniciar a transição lentamente na entrada */
+}
+
+.btn{
+    transition: 0.5s ease-in-out; /* realizar a transição na entrada e na saída */
+}
+
+.btn{
+    padding: 15px; /* distanciamento entre o conteúdo e a borda do botão */
+    margin-right: 50px; /* distanciamento entre cada botões */
+    border-radius: 10px; /* bordas arredondadas */
+    border-style: 5px double; /* estilo da borda do botão */
+    color: white; /* cor do texto do botão */
+    background-color: blue; /* cor de fundo do botão */
+}
+
+footer{
+    background-color: rgb(150, 143, 86);
+    padding: 20px auto;
+    margin: 10px 67px;
+    text-align: center;
+    border-radius: 10px; 
+}
+
+.icons{
+    margin-top: 10px;
+    padding-right: 20px;
+    width: 60px;
+}
+
+.chat{
+    width: 70px;
+    position: fixed;
+    right: 10px;  
+    bottom: 20px;
+}
