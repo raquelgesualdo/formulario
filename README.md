@@ -1,4 +1,4 @@
-## Projeto para treinar os conhecimentos adquiridos na aula de FrontEnd do CTD:
+## Projeto para treinar o aprendizado em FrontEnd do CTD - Digital House:
 ------------------------
 
 - Formulários
